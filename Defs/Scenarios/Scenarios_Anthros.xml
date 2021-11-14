@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenarioDef>
+    <defName>AnthroScenarioClassic</defName>
+    <label>Anthro Crashlanded</label>
+    <description>
+Wrongdoers, Misfits, or just Innocents being wrongfully sentenced. 
+All crammed into one giant interstellar prisoner transport ship. 
+Next thing you know, there's metal ripping and sirens ringing. 
+You manage to board and eject from an escape pod right as the ship explodes. 
+				
+Welcome to Rimworld, let's get the party started.
+	</description>
+    <scenario>
+      <summary>Crashlanded anthropomorphic creatures, time for trouble.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>AnthroPlayerColony</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>10</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>DropPods</method>
+        </li>
+        <li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <chance>0.3</chance>
+          <context>PlayerStarter</context>
+          <hideOffMap>True</hideOffMap>
+          <hediff>CryptosleepSickness</hediff>
+          <severityRange>1~1</severityRange>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>888</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>35</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+           <def>StartingThing_Defined</def>
+           <thingDef>Gun_Revolver</thingDef>
+		   <count>3</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+           <def>StartingThing_Defined</def>
+           <thingDef>Apparel_FlakVest</thingDef>
+		   <count>2</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_Duster</thingDef>
+          <stuff>Cloth</stuff>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>600</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <count>5</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>888</count>
+        </li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>
+Wrongdoers, Misfits, or just Innocents being wrongfully sentenced. 
+All crammed into one giant interstellar prisoner transport ship. 
+Next thing you know, there's metal ripping and sirens ringing. 
+You manage to board and eject from an escape pod right as the ship explodes. 
+				
+Welcome to Rimworld, let's get the party started. 
+		  </text>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

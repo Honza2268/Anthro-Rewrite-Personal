@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Abstract="True" Name="BaseAnthroPawnKind">
+    <race>BaseAnthro</race>
+    <combatPower>40</combatPower>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="BaseAnthroPawnKind">
+    <defName>Anthro</defName>
+    <label>colonist</label>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>10~20</initialResistanceRange>		
+    <defaultFactionType>AnthroPlayerColony</defaultFactionType>
+    <backstoryCategories>
+		<li>Offworld</li>
+		<li>Tribal</li>
+		<li>Outlander</li>
+    </backstoryCategories>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>350</min>
+      <max>600</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>
+      <min>50</min>
+      <max>800</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+      <li>Simple</li>
+    </techHediffsTags>
+  </PawnKindDef>
+
+</Defs>

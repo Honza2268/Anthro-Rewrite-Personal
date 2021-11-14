@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>h2268.anthroracerewrite</packageId>
+  <name>Anthro Race Rewrite</name>
+  <author>Honza2268</author>
+  <supportedVersions>
+	  <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+  </loadAfter>
+  <description>
+Adds anthropomorphic furry animal beings into the game, as simple as that.
+Now you can play with some dog/wolf people, bird/owl people , cat people, and lizard/guilmon/yoshi? people.
+That or do the ye'olde Rimworld of makin' chairs outta them.
+
+Featuring:
+- Spaghetti coding
+- 8 Types of Canine heads
+- 7 Types of Feline heads
+- 8 Types of Avian heads
+- 9 Types of Scalie heads
+- 6 Types of Fish heads
+- 5 Types of Rabbit heads
+- 5 Types of Mustilids
+- 3 Types of Rodents
+- 6 Types of Bovid heads
+- 1 Raccoon
+- 1 Opossum
+
+
+Each shape of heads have 3 variant of eyes, dot eyes, oval eyes and slanted eyes
+So you can say there's about 177 unique-ish head types for your colonists :D
+
+The stats shouuuuld be about the same as a vanilla pawn, there are some adjustments I made that I might've
+forgotten about a year ago.
+
+Might add eyelashes for the females in a later date.
+Helmets might look kinda weird/funny on them.
+
+
+Requires Humanoid Alien Races 2.0, remember to load that before this one.
+
+Should be safe to add in an on-going game, Vanilla Expanded Framework/Faction Discovery is needed tho to actually
+put them in-game.
+
+They wouldn't appear in random wanderer/podcrash/rescue events so you might wanna try using Faction Blender as
+well.
+
+Artwork by R-MK .w.)b
+
+  </description>
+</ModMetaData>
