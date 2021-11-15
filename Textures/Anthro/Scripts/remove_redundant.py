@@ -16,6 +16,6 @@ for f in bad:
 
 files = [f for f in os.listdir() if '.png' in f]
 
-for f in files:
+'''for f in files:
     _, name = f.split('_', 1)
-    os.rename(f, name)
+    os.rename(f, name)'''
