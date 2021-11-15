@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
+
     <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-        <defName>BaseAnthro</defName>
+        <defName>Anthro</defName>
         <label>Anthro</label>
         <description>A wierd being.</description>
 
@@ -180,22 +181,6 @@
                         <li>C6N</li>
                         <li>C7N</li>
                         <li>C8N</li>
-                        <li>C1S</li>
-                        <li>C2S</li>
-                        <li>C3S</li>
-                        <li>C4S</li>
-                        <li>C5S</li>
-                        <li>C6S</li>
-                        <li>C7S</li>
-                        <li>C8S</li>
-                        <li>C1O</li>
-                        <li>C2O</li>
-                        <li>C3O</li>
-                        <li>C4O</li>
-                        <li>C5O</li>
-                        <li>C6O</li>
-                        <li>C7O</li>
-                        <li>C8O</li>
                         <li>F1N</li>
                         <li>F2N</li>
                         <li>F3N</li>
@@ -203,20 +188,6 @@
                         <li>F5N</li>
                         <li>F6N</li>
                         <li>F7N</li>
-                        <li>F1S</li>
-                        <li>F2S</li>
-                        <li>F3S</li>
-                        <li>F4S</li>
-                        <li>F5S</li>
-                        <li>F6S</li>
-                        <li>F7S</li>
-                        <li>F1O</li>
-                        <li>F2O</li>
-                        <li>F3O</li>
-                        <li>F4O</li>
-                        <li>F5O</li>
-                        <li>F6O</li>
-                        <li>F7O</li>
                         <li>S1N</li>
                         <li>S2N</li>
                         <li>S3N</li>
@@ -226,23 +197,6 @@
                         <li>S7N</li>
                         <li>S8N</li>
                         <li>S9N</li>
-                        <li>S1S</li>
-                        <li>S2S</li>
-                        <li>S3S</li>
-                        <li>S4S</li>
-                        <li>S5S</li>
-                        <li>S6S</li>
-                        <li>S7S</li>
-                        <li>S8S</li>
-                        <li>S9S</li>
-                        <li>S1O</li>
-                        <li>S2O</li>
-                        <li>S3O</li>
-                        <li>S4O</li>
-                        <li>S5O</li>
-                        <li>S6O</li>
-                        <li>S7O</li>
-                        <li>S8O</li>
                         <li>A1N</li>
                         <li>A2N</li>
                         <li>A3N</li>
@@ -251,22 +205,6 @@
                         <li>A6N</li>
                         <li>A7N</li>
                         <li>A8N</li>
-                        <li>A1S</li>
-                        <li>A2S</li>
-                        <li>A3S</li>
-                        <li>A4S</li>
-                        <li>A5S</li>
-                        <li>A6S</li>
-                        <li>A7S</li>
-                        <li>A8S</li>
-                        <li>A1O</li>
-                        <li>A2O</li>
-                        <li>A3O</li>
-                        <li>A4O</li>
-                        <li>A5O</li>
-                        <li>A6O</li>
-                        <li>A7O</li>
-                        <li>A8O</li>
                         <li>M1N</li>
                         <li>M2N</li>
                         <li>M3N</li>
@@ -277,77 +215,23 @@
                         <li>M8N</li>
                         <li>M9N</li>
                         <li>M10N</li>
-                        <li>M1S</li>
-                        <li>M2S</li>
-                        <li>M3S</li>
-                        <li>M4S</li>
-                        <li>M5S</li>
-                        <li>M6S</li>
-                        <li>M7S</li>
-                        <li>M8S</li>
-                        <li>M9S</li>
-                        <li>M10S</li>
-                        <li>M1O</li>
-                        <li>M2O</li>
-                        <li>M3O</li>
-                        <li>M4O</li>
-                        <li>M5O</li>
-                        <li>M6O</li>
-                        <li>M7O</li>
-                        <li>M8O</li>
-                        <li>M9O</li>
-                        <li>M10O</li>
                         <li>HR1N</li>
                         <li>HR2N</li>
                         <li>HR3N</li>
                         <li>HR4N</li>
                         <li>HR5N</li>
                         <li>HR6N</li>
-                        <li>HR1S</li>
-                        <li>HR2S</li>
-                        <li>HR3S</li>
-                        <li>HR4S</li>
-                        <li>HR5S</li>
-                        <li>HR6S</li>
-                        <li>HR1O</li>
-                        <li>HR2O</li>
-                        <li>HR3O</li>
-                        <li>HR4O</li>
-                        <li>HR5O</li>
-                        <li>HR6O</li>
                         <li>Bun1N</li>
                         <li>Bun2N</li>
                         <li>Bun3N</li>
                         <li>Bun4N</li>
                         <li>Bun5N</li>
-                        <li>Bun1S</li>
-                        <li>Bun2S</li>
-                        <li>Bun3S</li>
-                        <li>Bun4S</li>
-                        <li>Bun5S</li>
-                        <li>Bun1O</li>
-                        <li>Bun2O</li>
-                        <li>Bun3O</li>
-                        <li>Bun4O</li>
-                        <li>Bun5O</li>
                         <li>FS1N</li>
                         <li>FS2N</li>
                         <li>FS3N</li>
                         <li>FS4N</li>
                         <li>FS5N</li>
                         <li>FS6N</li>
-                        <li>FS1S</li>
-                        <li>FS2S</li>
-                        <li>FS3S</li>
-                        <li>FS4S</li>
-                        <li>FS5S</li>
-                        <li>FS6S</li>
-                        <li>FS1O</li>
-                        <li>FS2O</li>
-                        <li>FS3O</li>
-                        <li>FS4O</li>
-                        <li>FS5O</li>
-                        <li>FS6O</li>
                     </aliencrowntypes>
                     <alienbodytypes>
                         <li>Female</li>
@@ -555,10 +439,7 @@
                 <li>
                     <key>HairDef</key>
                     <value>
-                        <hasStyle>true</hasStyle>
-                        <styleTagsOverride>
-                            <li>Anthro</li>
-                        </styleTagsOverride>			
+                        <hasStyle>false</hasStyle>			
                   </value>
                 </li>
                 <li>
@@ -583,4 +464,5 @@
 
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
+
 </Defs>

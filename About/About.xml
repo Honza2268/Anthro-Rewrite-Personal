@@ -17,6 +17,10 @@
     <li>erdelf.HumanoidAlienRaces</li>
   </loadAfter>
   <description>
+Personal Rewrite of R-MK's Anthro race mod. Featuring CE patch, less spaghetti code and reduced amount of face types which now come with masking -> multicolord faces.
+
+
+Original Description:
 Adds anthropomorphic furry animal beings into the game, as simple as that.
 Now you can play with some dog/wolf people, bird/owl people , cat people, and lizard/guilmon/yoshi? people.
 That or do the ye'olde Rimworld of makin' chairs outta them.
@@ -43,8 +47,8 @@ The stats shouuuuld be about the same as a vanilla pawn, there are some adjustme
 forgotten about a year ago.
 
 Might add eyelashes for the females in a later date.
-Helmets might look kinda weird/funny on them.
 
+Helmets might look kinda weird/funny on them.
 
 Requires Humanoid Alien Races 2.0, remember to load that before this one.
 

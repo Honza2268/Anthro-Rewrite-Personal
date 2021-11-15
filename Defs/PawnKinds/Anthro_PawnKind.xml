@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <PawnKindDef Name="AnthroOutlanderBase" Abstract="True">
-    <race>BaseAnthro</race>
+    <race>Anthro</race>
     <chemicalAddictionChance>0.01</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
     <invNutrition>2.00</invNutrition>
@@ -24,7 +24,7 @@
   <PawnKindDef ParentName="AnthroOutlanderBase">
     <defName>Anthro_CommonerA</defName>
     <label>Anthro commonerA</label>
-    <race>BaseAnthro</race>	
+    <race>Anthro</race>	
 	<defaultFactionType>OutlanderCivil</defaultFactionType>
     <combatPower>60</combatPower>
     <itemQuality>Normal</itemQuality>

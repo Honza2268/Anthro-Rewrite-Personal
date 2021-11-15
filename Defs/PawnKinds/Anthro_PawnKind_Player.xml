@@ -2,7 +2,7 @@
 <Defs>
 
   <PawnKindDef Abstract="True" Name="BaseAnthroPawnKind">
-    <race>BaseAnthro</race>
+    <race>Anthro</race>
     <combatPower>40</combatPower>
     <isFighter>false</isFighter>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
