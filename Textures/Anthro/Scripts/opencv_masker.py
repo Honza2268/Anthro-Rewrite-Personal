@@ -19,7 +19,7 @@ def get_mask(image: np.ndarray, tresh_low: np.ndarray, tresh_high:np.ndarray) ->
     return cv2.inRange(image.copy(), tresh_low, tresh_high)
 
 
-def get_shapes(image: np.ndarray, mask_params = (np.array([90, 90, 90]), np.array([255, 255, 255]))) -> list:
+def get_shapes(image: np.ndarray, mask_params = (np.array([85, 85, 85]), np.array([255, 255, 255]))) -> list:
     shapes = []
     sizes = []
     shapemask = get_mask(image, *mask_params)
@@ -118,7 +118,7 @@ def masking_process(head_group, primary_mask, secondary_mask):
     for head in head_group:
         work_face = cv2.imread(head)
         # check face for symetry, add them to dict with their name as a key
-        if is_symetrical(work_face):
+        if is_symetrical(work_face) and False:
             faces[f'{head}_half'] = cv2.cvtColor(is_symetrical(work_face, return_image=True), cv2.COLOR_GRAY2BGR)
         else:
             faces[head] = work_face
@@ -194,27 +194,20 @@ def main():
     allfiles = [f for f in os.listdir() if '.png' in f and '_' in f]
     files = [f for f in allfiles if 'm.png' not in f]
 
-    # get groups of images: [<- returned list [<- list of images of head shape ], [ ... ], ... ]
+    # get groups of images: {'image group name': [<- list of images of head shape ], ... }
     groups = dict(zip(*get_groups(files)))
     
+    
+    # multitthreading
+    max_thread_count = 10
     counter = [0, 0]
-    
-    # processes groupings of head shapes
     threads = [threading.Thread(None, process_wrapper, args=(id, hg, primary_mask, secondary_mask, counter, len(groups))) for id, hg in groups.items()]
-    
     q = queue.Queue()
     for thread in threads:
-        q.put(thread)
-        
+        q.put(thread) 
     while not q.empty():
-        if counter[1] < 5:
+        if counter[1] < max_thread_count:
             q.get().start()
-        
- 
-        
-
-        
-
 
 
 if __name__ == '__main__':
